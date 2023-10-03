@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Style for the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+  background-color: transparent; /* Set the background color of the scrollbar track */
+}
+
+/* Track (the area on the sides of the thumb) */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the track */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* On hover, the thumb will be a darker grey */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
